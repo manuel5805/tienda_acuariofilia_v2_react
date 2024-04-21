@@ -1,0 +1,108 @@
+:root {
+    --color-fondo: #f0f0f0; 
+    --color-fondo-2:#282c34;
+    --color-borde: #dcdcdc; 
+    --color-product: #e6e6e6;
+    --texto-product: #333;
+  }
+
+.main_container_home{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 1000px;
+}
+
+.products_main_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 68%;
+    width: 60%;
+    background-color: var(--color-fondo);
+    border: 1px solid var(--color-borde);
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.product_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 18px;
+    width: 30%;
+    height: 45%;
+    margin: 1%;
+    background-color: var(--color-product);
+    color: var(--texto-product); 
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px
+}
+
+.img_product_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+}
+
+.img_product{
+    width: 80%;
+    height: 100%;
+}
+
+
+.button_products{
+    display: flex;
+    justify-content: space-evenly;
+ 
+    
+}
+
+.button_products>button{
+    width: 30%;
+    background-color: #282c34;
+    color: #fff;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product_item>div:nth-child(2) {
+    text-align: center;
+}
+
+.category_container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 68%;
+    height: 25%;
+}
+
+.category_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    width: 23%;
+    height: 80%;
+    background-color: var(--color-product);
+    color: var(--texto-product); 
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.img_category_container{
+    width: 100%;
+    height: 60%;
+}
+
+.img_category{
+    width: 100%;
+    height:100% ;
+}

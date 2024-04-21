@@ -1,0 +1,61 @@
+:root {
+    --color-fondo: #f0f0f0; 
+    --color-fondo-2:#282c34;
+    --color-borde: #dcdcdc; 
+    --color-review: #e6e6e6;
+    --texto-product: #333;
+    --color-comment: white;
+  }
+
+  .car_shop_main_container{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 800px;
+}
+
+.car_shop_table_container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 60%;
+    width: 60%;
+    background-color: var(--color-fondo);
+    border: 1px solid var(--color-borde);
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+#car_shop_list{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#car_shop_list>thead{
+    background-color: var(--color-fondo-2);
+    color:#f0f0f0 ;
+  }
+
+  #car_shop_list th,
+  #car_shop_list td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  #boton_car_shop {
+    width: 15%;
+    height: 38px;
+    background-color: #282c34;
+    color: #fff;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  #total_car_shop{
+    font-size: 24px;
+  }

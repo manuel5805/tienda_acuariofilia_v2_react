@@ -1,0 +1,39 @@
+header {
+    background-color: #282c34;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    list-style: none;
+  }
+  
+  .links_header>a {
+    text-decoration: none;
+    color: white;
+
+  }
+  #boton_cerrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 16px;
+    color: #fff;
+    height: 30px;
+    width: 100%;
+    background-color: #282c34;
+    border: none;
+    cursor: pointer;
+  }
+
+  #boton_cerrar:hover {
+    background-color: #1c1f25;
+  }

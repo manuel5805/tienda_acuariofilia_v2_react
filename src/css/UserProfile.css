@@ -1,0 +1,137 @@
+:root {
+    --color-fondo: #f0f0f0; 
+    --color-fondo-2:#282c34;
+    --color-borde: #dcdcdc; 
+  }
+  
+  .main_container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 7%;
+    height: 500px;
+    width: 50%;
+    background-color: var(--color-fondo);
+    border: 1px solid var(--color-borde);
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+
+  }
+  
+  .information {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    background-color: var(--color-fondo-2);
+    border: 1px solid var(--color-borde);
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+  }
+
+  .nav_information {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 70%;
+
+  }
+  .profile_list {
+
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .links_list {
+    text-align: center;
+    width: 130%;
+    height: 10%;
+    margin-left: -40px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .links_list>a {
+    text-decoration: none; 
+    color: #f0f0f0;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ 
+  
+  }
+
+  .information_user {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 88%;
+  
+  }
+
+  #credentials_user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 100%;
+    background-color: var(--color-fondo-2);
+    border: 1px solid var(--color-borde);
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  #credentials_user>div{
+    font-size: 20px;
+    margin-left: 10%;
+    color:#f0f0f0 ;
+  }
+
+  #orders_list{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #orders_list>thead{
+    background-color: var(--color-fondo-2);
+    color:#f0f0f0 ;
+  }
+
+  #orders_list th,
+  #orders_list td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  .information_user form {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 500px;
+  }
+
+  #boton_update {
+    width: 30%;
+    height: 38px;
+    margin-left: 35%;
+    background-color: #282c34;
+    color: #fff;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #boton_update:hover {
+    background-color: #1c1f25;
+  }
